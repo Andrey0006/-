@@ -1,3 +1,13 @@
+import datetime
+
+def printTimeStamp(name):
+
+  print('Автор програми: ' + name)
+
+  print('Час компіляції: ' + str(datetime.datetime.now()))
+
+
+
 a = input('Введiть Буквенну оцінку: ')
 
 if a == 'A+':
@@ -39,6 +49,9 @@ elif a == 'F':
 else:
 	print('Не вірний ввод')		
 
+
+
+printTimeStamp('\nОсередько Андрій, Ваня Жаботинський\n')
 
 
 input('\n')					
