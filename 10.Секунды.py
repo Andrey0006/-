@@ -24,5 +24,4 @@ print(mhdc)
 
 printTimeStamp('\nОсередько Андрій, Ваня Жаботинський\n')
 
-
 input('\n')
