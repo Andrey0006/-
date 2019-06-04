@@ -1,5 +1,3 @@
-print('Перевод из температури в Цельсіях, в Кельвіни та Фаренгейти')
-
 import datetime
 
 def printTimeStamp(name):
@@ -8,6 +6,9 @@ def printTimeStamp(name):
 
   print('Час компіляції: ' + str(datetime.datetime.now()))
 
+
+
+print('Перевод из температури в Цельсіях, в Кельвіни та Фаренгейти')
 
 
 a = input('Введіть температуру в Цельсіях:')
@@ -26,7 +27,7 @@ print('\nТемпература в Фаренгейтах: ' + str(F))
 
 print('\nТемпература в Кельвінах: ' + str(K))
 
-printTimeStamp('Осередько Андрій, Ваня Жаботинський')
+printTimeStamp('\nОсередько Андрій, Ваня Жаботинський\n')
 
 
 input('\n')
