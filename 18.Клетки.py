@@ -1,3 +1,13 @@
+import datetime
+
+def printTimeStamp(name):
+
+  print('Автор програми: ' + name)
+
+  print('Час компіляції: ' + str(datetime.datetime.now()))
+
+
+
 a = input('Введiть значення клiтки: ')
 
 
@@ -53,6 +63,7 @@ else:
 	print('Не правельний ввод')		
 
 
+printTimeStamp('\nОсередько Андрій, Ваня Жаботинський\n')
 
 
 input('\n')	
