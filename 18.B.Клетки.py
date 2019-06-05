@@ -61,7 +61,7 @@ elif a == 'h2' or a == 'h4' or a == 'h6' or a == 'h8':
 
 else:
 	print('Не правельний ввод')		
-
+	
 
 printTimeStamp('\nОсередько Андрій, Ваня Жаботинський\n')
 
