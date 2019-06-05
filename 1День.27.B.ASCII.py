@@ -13,5 +13,4 @@ for i in range(0, 128):
 
 printTimeStamp('\nОсередько Андрій, Ваня Жаботинський\n')
 
-
 input('\n')
